@@ -88,6 +88,10 @@ body {
     margin-left: 0%;
     width: 100%;
   }
+
+  .btn-enviar {
+    margin-left: 25%;
+  }
 }
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.active,
@@ -607,4 +611,15 @@ form > div > input[type=text], input[type=email] {
 
 form > div:nth-child(3) > input[type=text] {
   width: 83%;
+}
+
+@media (max-width: 500px) {
+  form > div > input[type=text], input[type=email] {
+    width: 80%;
+    margin: 3% 0%;
+  }
+
+  form > div:nth-child(3) > input[type=text] {
+    width: 80%;
+  }
 }
