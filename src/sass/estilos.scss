@@ -67,6 +67,14 @@ body{
     padding-bottom: 5px;
 }
 
+.btn-enviar{
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 3%;
+    margin-left: 40%;
+}
+
 .btn-tertiary{
     background-color: $naranja;
     color: $blanco;
@@ -580,6 +588,12 @@ footer > .container:nth-child(2) > p{
     }
 }
 
+@media(max-width: 500px){
+    .info-section > div > p{
+        margin-left: 12%;
+    }
+}
+
 .desarrollo-aplicaciones > .container > 
 .row > div{
     margin: 0% 1.5%;
@@ -595,4 +609,65 @@ footer > .container:nth-child(2) > p{
 .desarrollo-aplicaciones > .container > 
 .row > div > img{
     margin: 5% 0%;
+}
+
+.DTAPPS > p{
+    width: 85%;
+}
+
+@media(max-width: 500px){
+    .desarrollo-aplicaciones > .container > 
+    .row > div{
+        width: 100%;
+    }
+}
+
+.acerca-de{
+    display: flex;
+}
+
+.acerca-de > div:nth-child(2) > img{
+    width: 80%;
+    margin-left: 50%;
+}
+
+@media(max-width: 500px){
+    .acerca-de{
+        display: grid;
+    }
+
+    .acerca-de > div:nth-child(1) >p{
+        width: 85%;
+    }
+
+    .acerca-de > div:nth-child(2) > img{
+        width: 80%;
+        margin-left: 0%
+    }
+}
+
+.img-representativa{
+    margin-top: 5%;
+}
+
+@media(max-width: 500px){
+    .img-representativa >img{
+        width: 100%;
+    }   
+}
+
+form > div > input[type="text"],input[type="email"]{
+    width: 26%;
+    margin: 0.5% 1%;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px 2px $gris-opaco;
+    --webkit-box-shadow: 0px 2px 2px 2px $gris-opaco;
+    --moz-box-shadow: 0px 2px 2px 2px $gris-opaco;
+    filter: shadow(color=$gris-opaco, direction=135, strength=2);
+    padding: 8px;
+}
+
+form > div:nth-child(3) > input[type="text"]{
+    width: 83%;
 }
