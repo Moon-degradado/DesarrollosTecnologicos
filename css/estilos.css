@@ -47,6 +47,10 @@ body {
   color: #FF5B22;
 }
 
+.secondary-color {
+  color: #fff;
+}
+
 .btn {
   border-radius: 10px;
   padding-top: 5px;
@@ -305,6 +309,12 @@ body {
   font-weight: bold;
 }
 
+.sub-reutilizable {
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-bottom: 1.5%;
+}
+
 .logos-empresas {
   margin-top: 5%;
 }
@@ -336,6 +346,10 @@ body {
 
   .reutilizable > p {
     font-size: 4px;
+  }
+
+  .sub-reutilizable > h1 {
+    font-size: 10px;
   }
 
   .logos-empresas {
@@ -405,5 +419,90 @@ footer > .container:nth-child(2) > p {
 @media (max-width: 500px) {
   footer > .container:nth-child(1) {
     display: grid;
+  }
+}
+.row-section {
+  display: flex;
+  margin: 0%;
+  max-width: 100%;
+}
+
+.galeria > .row-section > div > img {
+  max-width: 100%;
+}
+
+.galeria > .row-section > div > h2 {
+  margin-top: -20%;
+  margin-left: 8%;
+}
+
+.galeria > .row-section > div:nth-child(1) > h2 {
+  margin-top: -50% !important;
+}
+
+.galeria > .row-section > div > p {
+  margin-left: 8%;
+  font-size: 13px;
+  color: #fff;
+}
+
+@media (max-width: 500px) {
+  .galeria {
+    margin-bottom: 37%;
+  }
+
+  .row-section {
+    display: grid;
+  }
+
+  .galeria > .row-section > div > img {
+    width: 100%;
+  }
+
+  .galeria > .row-section > div:nth-child(5) > h2 {
+    margin-top: -15% !important;
+  }
+}
+.tarjeta-presentacion > .container > .row {
+  display: flex;
+}
+
+.tarjeta-presentacion > .container > .row > div {
+  width: 27%;
+  text-align: center;
+  margin: 2% 3%;
+  box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.342);
+  --webkit-box-shadow: 0 0 10px 4px $negro;
+  --moz-box-shadow: 0 0 10px 4px $negro;
+  filter: shadow(color=rgba(0, 0, 0, 0.342), direction=135, strength=2);
+}
+
+.tarjeta-presentacion > .container > .row > div > img {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.tarjeta-presentacion > .container > .row > div > div {
+  text-align: left;
+  margin-left: 10%;
+}
+
+.tarjeta-presentacion > .container > .row:nth-child(2) {
+  margin-left: 18%;
+  width: 90%;
+}
+
+@media (max-width: 500px) {
+  .tarjeta-presentacion > .container > .row > div {
+    width: 100%;
+  }
+
+  .tarjeta-presentacion {
+    margin-top: -25%;
+  }
+
+  .tarjeta-presentacion > .container > .row:nth-child(2) {
+    margin-left: -4.5%;
+    width: 109%;
   }
 }
