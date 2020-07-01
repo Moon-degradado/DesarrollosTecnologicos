@@ -1,5 +1,6 @@
 $blanco: #fff;
 $naranja: #FF5B22;
+$naranja-opaco: #F5C291;//F2B094
 $negro: rgba(0, 0, 0, 0.830);
 $negro-difuminado: rgba(0, 0, 0, 0.342);
 $negro-footer: #262626;
@@ -557,4 +558,41 @@ footer > .container:nth-child(2) > p{
         margin-left: -4.5%;
         width: 109%;
     }
+}
+
+.info-section{
+    background-color: $naranja-opaco;
+}
+
+.info-section > div > p{
+    padding: 5% 0%;
+}
+
+@media(max-width: 1920px){
+    .info-section > div > p{
+        margin-left: 2%;
+    }
+}
+
+@media(max-width: 1366px){
+    .info-section > div > p{
+        margin-left: 7%;
+    }
+}
+
+.desarrollo-aplicaciones > .container > 
+.row > div{
+    margin: 0% 1.5%;
+    margin-top: 3%;
+    text-align: center;
+    width: 22%;
+    box-shadow: 0 0 10px 4px $negro-difuminado;
+    --webkit-box-shadow: 0 0 10px 4px $negro;
+    --moz-box-shadow: 0 0 10px 4px $negro;
+    filter: shadow(color=$negro-difuminado, direction=135, strength=2);
+}
+
+.desarrollo-aplicaciones > .container > 
+.row > div > img{
+    margin: 5% 0%;
 }
