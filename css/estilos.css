@@ -682,3 +682,6 @@ form > div:nth-child(3) > input[type=text] {
     width: 80%;
   }
 }
+.datos-domicilio {
+  list-style: none;
+}
