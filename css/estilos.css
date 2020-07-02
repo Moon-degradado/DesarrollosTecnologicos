@@ -86,6 +86,11 @@ body {
   width: 150%;
 }
 
+@media (max-width: 1366px) {
+  .navbar-DT > #navbarNav > .navbar-nav {
+    margin-left: 45%;
+  }
+}
 @media (max-width: 500px) {
   .navbar-DT > #navbarNav > .navbar-nav {
     margin-left: 0%;
