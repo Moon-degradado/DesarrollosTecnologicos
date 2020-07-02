@@ -561,22 +561,22 @@ footer > .container:nth-child(2) > p {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#f5c291", endColorstr="#f2b094", GradientType=1 );
 }
 
-.info-section > div > p {
-  padding: 5% 0%;
+.info-section > p {
+  padding: 3.5% 0%;
 }
 
-@media (max-width: 1920px) {
-  .info-section > div > p {
-    margin-left: 2%;
+@media (max-width: 1920px) and (max-height: 1080px) {
+  .info-section > p {
+    margin-left: 15%;
   }
 }
 @media (max-width: 1366px) {
-  .info-section > div > p {
+  .info-section > p {
     margin-left: 7%;
   }
 }
 @media (max-width: 500px) {
-  .info-section > div > p {
+  .info-section > p {
     margin-left: 12%;
   }
 }
