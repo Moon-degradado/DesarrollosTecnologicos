@@ -340,7 +340,7 @@ body {
 
 @media (max-width: 1920px) {
   .reuso {
-    margin-top: 5%;
+    margin-top: 4%;
   }
 }
 @media (max-width: 1366px) {
@@ -475,6 +475,12 @@ footer > .container:nth-child(2) > p {
   .galeria > .row-section > div > img {
     width: 154.5%;
     max-width: 154.5%;
+  }
+}
+@media (max-width: 1920px) and (max-height: 1080px) {
+  .galeria > .row-section > div > img {
+    width: 294.5%;
+    max-width: 294.5%;
   }
 }
 @media (max-width: 1366px) {
