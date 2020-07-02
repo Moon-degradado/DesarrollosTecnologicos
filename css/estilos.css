@@ -685,3 +685,9 @@ form > div:nth-child(3) > input[type=text] {
 .datos-domicilio {
   list-style: none;
 }
+
+@media (max-width: 500px) {
+  .aviso-privacidad {
+    margin-top: 25%;
+  }
+}
