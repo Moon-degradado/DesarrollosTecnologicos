@@ -370,6 +370,11 @@ div > div{
 }
 
 @media (max-width: 1920px){
+    @media(max-height: 1080px){
+        .sub-reutilizable{
+            margin-top: 10%;
+        }
+    }
     .reuso{
         margin-top: 4%;
     }
@@ -522,14 +527,17 @@ footer > .container:nth-child(2) > p{
 }
 
 @media(max-width: 1920px){
-    .galeria > .row-section > div > img{
-        width: 154.5%;
-        max-width: 154.5%;
-    }
+    
     @media(max-height: 1080px){
+        .galeria > .row-section > div{
+            width: 100%;
+            max-width: 100%;
+            margin-bottom: 3%;
+        }
+
         .galeria > .row-section > div > img{
-            width: 294.5%;
-            max-width: 294.5%;
+             width: 100%;
+             max-width: 100%;
         }
     }
 }
