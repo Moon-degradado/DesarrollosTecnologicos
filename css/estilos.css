@@ -97,7 +97,7 @@ body {
 }
 @media (max-width: 1024px) {
   .navbar-DT > #navbarNav > .navbar-nav {
-    margin-left: 25%;
+    margin-left: 20%;
   }
 }
 @media (max-width: 768px) {
@@ -196,6 +196,10 @@ body {
   .seccion-negocio > .container > div:nth-child(2) > img {
     width: 100%;
   }
+
+  .imagen-principal > section > .container > h1 {
+    font-size: 250%;
+  }
 }
 @media (max-width: 500px) {
   .imagen-principal > img {
@@ -289,6 +293,10 @@ body {
   display: inline-flex;
 }
 
+.metodologia > article > .container > h2 {
+  font-size: 350%;
+}
+
 .imagen-tamano {
   width: 30%;
 }
@@ -301,6 +309,11 @@ body {
   .metodologia > article > .container > div > div {
     display: grid;
     width: 80%;
+    text-align: center;
+  }
+
+  .metodologia > article > .container > h2 {
+    font-size: 350%;
     text-align: center;
   }
 
@@ -370,6 +383,7 @@ body {
   margin-top: -10%;
   color: #fff;
   margin-left: 15%;
+  font-size: 350%;
 }
 
 .reutilizable > p {
@@ -418,6 +432,7 @@ body {
 
   .logos-empresas {
     margin-top: 0%;
+    padding: 4% 0%;
   }
 
   .logos-empresas > img {
@@ -430,6 +445,7 @@ body {
     margin-bottom: 0%;
     color: #fff;
     margin-left: 15%;
+    font-size: 250%;
   }
 
   .reutilizable > p {
@@ -444,6 +460,11 @@ body {
 @media (max-width: 500px) {
   .reutilizable {
     background-color: #E5E5E5;
+  }
+
+  .logos-empresas {
+    margin-top: 0%;
+    padding: 0%;
   }
 
   .reutilizable > img {
