@@ -12,7 +12,7 @@
     <!-- Google Font - Raleway -->
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <!-- Containers -->
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/estilos.min.css">
 </head>
 <body>
     <!--NAVIGATION-->
@@ -29,6 +29,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">Servicios</a>
                     <ul>
+                        <!-- SUB MENU DT  1ST LEVEL-->
                         <li>
                             <a class="dropdown-item" href="DesarrolloSoftware.html">Desarrollo de Software</a>
                         </li>
@@ -65,29 +66,60 @@
     <section class="galeria">
         <div class="row-section">
             <div>
-                <img src="assets/img/2.Servicios- Desarrollo de Software/servicios.png" alt="">
-                <h2 class="font-weight-bold secondary-color"><span class="primary-color">01.</span> Servicios</h2>
-                <p>
-                    Diseñamos plataformas <br> efectivas a tu negocio, para la <br>
-                    operación, el control, entregas <br>
-                    y evaluaciones de satisfacción.
-                </p>
+                <img src="assets/img/2.Servicios- Desarrollo de Software/servicios.png" alt="" id="imagen-transition">
+                <div id="text-transition" class="transition-leave">
+                    <h2 class="font-weight-bold secondary-color"><span class="primary-color">01.</span> Servicios</h2>
+                    <p>
+                        Diseñamos plataformas <br> efectivas a tu negocio, para la <br>
+                        operación, el control, entregas <br>
+                        y evaluaciones de satisfacción.
+                    </p>
+                </div>
             </div>
             <div>
-                <img src="assets/img/2.Servicios- Desarrollo de Software/industria.png" alt="">
-                <h2 class="font-weight-bold secondary-color"><span class="primary-color">02.</span> Industria</h2>
+                <img src="assets/img/2.Servicios- Desarrollo de Software/industria.png" alt="" id="imagen-transition-2">
+                <div id="text-transition-2" class="transition-leave-2">
+                    <h2 class="font-weight-bold secondary-color"><span class="primary-color">02.</span> Industria</h2>
+                    <p>
+                        Aplica las tecnologias para ser <br>
+                        más eficiente el trabajo operativo y <br>
+                        comercial en dentro <br> de las diferentes ramas.
+                    </p>
+                </div>
             </div>
             <div>
-                <img src="assets/img/2.Servicios- Desarrollo de Software/seguros.png" alt="">
-                <h2 class="font-weight-bold secondary-color"><span class="primary-color">03.</span> Seguros</h2>
+                <img src="assets/img/2.Servicios- Desarrollo de Software/seguros.png" alt="" id="imagen-transition-3">
+                <div id="text-transition-3" class="transition-leave-2">
+                    <h2 class="font-weight-bold secondary-color"><span class="primary-color">03.</span> Seguros</h2>
+                    <p>
+                        Brinda un servicio personalizado <br> a tu
+                        cliente, llévalo al siguiente <br> nivel de
+                        satisfacción <br> inmediata.
+                    </p>
+                </div>
             </div>
             <div>
-                <img src="assets/img/2.Servicios- Desarrollo de Software/transporte.png" alt="">
-                <h2 class="font-weight-bold secondary-color"><span class="primary-color">04.</span> Transporte</h2>
+                <img src="assets/img/2.Servicios- Desarrollo de Software/transporte.png" alt="" id="imagen-transition-4">
+                <div id="text-transition-4" class="transition-leave-2">
+                    <h2 class="font-weight-bold secondary-color"><span class="primary-color">04.</span> Transporte</h2>
+                    <p>
+                        Te brindamos el apoyo más <br>
+                        completo a tus necesidades <br> de rastreo
+                        y comunicación <br> en tiempo real.
+                    </p>
+                </div>
             </div>
             <div>
-                <img src="assets/img/2.Servicios- Desarrollo de Software/personal.png" alt="">
-                <h2 class="font-weight-bold secondary-color"><span class="primary-color">05.</span> Personal</h2>
+                <img src="assets/img/2.Servicios- Desarrollo de Software/personal.png" alt="" id="imagen-transition-5">
+                <div id="text-transition-5" class="transition-leave-2">
+                    <h2 class="font-weight-bold secondary-color"><span class="primary-color">05.</span> Personal</h2>
+                    <p>
+                        Apoya y supervisa a tu personal, en campo,<br>
+                        en home office, elabora reportes de<br>
+                        actividades e incidencias, ubica<br>
+                        a tu personal en tiempo real.
+                    </p>
+                </div>
             </div>
         </div>
     </section>
@@ -199,5 +231,6 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
