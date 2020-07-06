@@ -141,6 +141,10 @@ body{
         margin-top: 4%;
         margin-left: 25%;
     }
+
+    .navbar-DT > img{
+        width: 70%;
+    }
 }
 
 .navbar-light .navbar-nav .active>.nav-link, 
@@ -668,7 +672,7 @@ p > span > a:hover{
 //     transition: 1.5s;
 // }
 .transition-leave{
-    margin-top: -18% !important;
+    margin-top: -18%;
     margin-bottom: 10%;
     transition: 1.5s;
 }
@@ -680,13 +684,18 @@ p > span > a:hover{
 
 .transition-hover
 {
-    transition: 1.5s !important;
-    margin-top: -60% !important;
+    transition: 1.5s ;
+    margin-top: -60% ;
 }
 
 .transition-hover-2{
+    transition: 1.5s ;
+    margin-top: -60% ;
+}
+
+.quitar-texto{
     transition: 1.5s !important;
-    margin-top: -60% !important;
+    display: none !important;
 }
 
 .galeria > .row-section > div > div > p{
@@ -727,9 +736,26 @@ p > span > a:hover{
         display: grid;
     }
 
-    .galeria > .row-section > div:nth-child(5) > h2{
-        margin-top: -7% !important;
+    .galeria > .row-section > div > div > h2 {
+        margin-top: -20%;
+        margin-left: 8%;
     }
+
+    .galeria > .row-section > div:nth-child(5) > div > h2 {
+        margin-top: -7%;
+        margin-bottom: 20%;
+    }
+
+    // .galeria > .row-section > div:nth-child(5) >
+    // .transition-leave-2{
+    //     margin-top: -30%;
+    //     margin-bottom: -5%;
+    // }
+
+    // .galeria > .row-section > div:nth-child(4) >
+    // .transition-leave-2{
+    //     margin-bottom: 10%;
+    // }
 }
 
 @media(max-width: 500px){
@@ -741,6 +767,14 @@ p > span > a:hover{
         // flex-wrap: wrap;
         // margin-left: 10%;
         display: grid;
+    }
+
+    .transition-leave{
+        margin-bottom: 0%;
+    }
+
+    .transition-leave-2{
+        margin-bottom: 0%;
     }
 
     .galeria > .row-section > div > img{
@@ -783,6 +817,14 @@ p > span > a:hover{
 .row:nth-child(2){
     margin-left: 18%;
     width: 90%;
+}
+
+@media(max-width: 768px){
+
+    .tarjeta-presentacion {
+        margin-top: 13%;
+    }
+
 }
 
 @media(max-width: 500px){
