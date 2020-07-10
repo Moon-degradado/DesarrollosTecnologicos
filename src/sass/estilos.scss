@@ -104,7 +104,7 @@ body{
         }
     }
 
-    >a > img{
+    > a > img{
         margin-left: 25%;
     }
 }
@@ -156,7 +156,7 @@ body{
         margin-left: 25%;
     }
 
-    .navbar-DT > a>img{
+    .navbar-DT > a > img{
         width: 70%;
     }
 }
@@ -171,7 +171,7 @@ body{
         width: 20%;
     }
 
-    .navbar-DT > a>img{
+    .navbar-DT > a > img{
         
         width: 50%;
     }
@@ -231,12 +231,12 @@ body{
     display: flex;
     margin-top: 20%;
     > div:nth-child(1) {
-        >h2{
+        > h2{
             font-weight: bold;
             font-size: 280%;
         }
     
-        >h2:nth-child(1){
+        > h2:nth-child(1){
             color: $naranja;
         }
     }
@@ -312,13 +312,13 @@ body{
     font-weight: bold;
     }
 
-    >img{
+    > img{
         margin-top: 5%;
         width: 100%;
     }
 
     >.container{
-        >div:nth-child(1){
+        > div:nth-child(1){
             margin-top: 10%;
         }
 
@@ -328,16 +328,16 @@ body{
         }
     }
 
-    >article{
-        >.container{
-            >h2{
+    > article{
+        > .container{
+            > h2{
                 margin-top: 5%;
                 font-size: 350%;
             }
 
-            >div{
+            > div{
                 display: flex;
-                >.caja > img{
+                > .caja > img{
                     margin-bottom: 5%;
                 }
 
@@ -590,7 +590,7 @@ section{
 @media(max-width: 768px){
     .section-info > .container > 
     section:nth-child(2) {
-        >div:nth-child(2) > img{
+        > div:nth-child(2) > img{
             margin-top: 5%;
             width: 100%;
         }
@@ -609,12 +609,12 @@ section{
         }
 
         >section:nth-child(2) {
-            >div:nth-child(2) > img{
+            > div:nth-child(2) > img{
                 margin-top: 5%;
                 width: 100%;
             }
 
-            >div:nth-child(1) > div > img{
+            > div:nth-child(1) > div > img{
                 width: 45%;
                 margin-left: 3%;
             }
@@ -693,7 +693,6 @@ footer{
 
         > p{
             margin-left: 8%;
-            // margin-top: 0%;
             margin-top: 10%;
             font-size: 13px;
             color: $blanco;
@@ -721,7 +720,7 @@ footer{
 .transition-hover-2{
     margin-top: -60% ;
     margin-bottom: 10%;
-    transition: 1.5s ;
+    transition: 1.5s;
 }
 
 .quitar-texto{
@@ -771,8 +770,6 @@ footer{
 
 @media(max-width: 768px){
     .row-section{
-        // flex-wrap: wrap;
-        // margin-left: 10%;
         display: grid;
     }
 
@@ -820,8 +817,6 @@ footer{
     }
 
     .row-section{
-        // flex-wrap: wrap;
-        // margin-left: 10%;
         display: grid;
     }
 
@@ -1007,13 +1002,13 @@ footer{
         display: grid;
     }
 
-    .acerca-de > div:nth-child(1) >p{
+    .acerca-de > div:nth-child(1) > p{
         width: 85%;
     }
 
     .acerca-de > div:nth-child(2) > img{
         width: 80%;
-        margin-left: 0%
+        margin-left: 0%;
     }
 }
 
@@ -1022,25 +1017,25 @@ footer{
 }
 
 @media(max-width: 1080px){
-    .img-representativa >img{
+    .img-representativa > img{
         width: 100%;
     }  
 }
 
 @media(max-width: 768px){
-    .img-representativa >img{
+    .img-representativa > img{
         width: 100%;
     }  
 }
 
 @media(max-width: 500px){
-    .img-representativa >img{
+    .img-representativa > img{
         width: 100%;
     }   
 }
 
 form {
-    > div > input[type="text"],input[type="email"]{
+    > div > input[type="text"], input[type="email"]{
         width: 26%;
         margin: 0.5% 1%;
         border: none;
@@ -1059,7 +1054,7 @@ form {
 
 @media(max-width: 500px){
     form { 
-        >div > input[type="text"],input[type="email"]{
+        > div > input[type="text"], input[type="email"]{
             width: 80%;
             margin: 3% 0%;
         }
